@@ -8,9 +8,9 @@ import { getData } from './product/page'
 export default function Home() {
   return (
     <div>
-     <Suspense fallback={<p>data loading</p>}>
+     {/* <Suspense fallback={<p>data loading</p>}>
       <Data/>
-     </Suspense>
+     </Suspense> */}
      <h2>hellowe</h2>
 
     </div>

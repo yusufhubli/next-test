@@ -13,10 +13,9 @@ export const getData = async()=>{
 
  const page =() => {
 
- const data = getData()
   return (
     <div>
-           products {data}
+     product
     </div>
   )
 }
